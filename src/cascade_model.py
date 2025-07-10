@@ -7,7 +7,7 @@ from collections import Counter, defaultdict
 
 PARAMS = {
     "N": 100_000,
-    "birth_place_probs": [0.42, 0.30, 0.28],
+    "birth_place_probs": [0.35, 0.45, 0.20],
     "sepsis_incidence": 0.15,
     "hosp_disch_times": [12, 36],
     "hosp_disch_probs": [0.28, 0.72],
@@ -16,8 +16,8 @@ PARAMS = {
     "onset_seg_probs": [0.5, 0.3, 0.2],
     "onset_seg_bounds": [(0, 24), (24, 72), (72, 672)],
     "seek_help_prob": 0.59,
-    "public_phc_frac": 0.55,
-    "private_phc_frac": 0.45,
+    "public_phc_frac": 0.65,
+    "private_phc_frac": 0.35,
     "rf_sens_hosp": 0.65,
     "rf_sens_clinic": 0.55
 }
